@@ -1,0 +1,81 @@
+.selector-for-some-widget {
+  	box-sizing: content-box;
+}
+
+.navbar {
+	background-color: #e3f2fd;
+
+}
+
+.navbar-brand {
+	border: 1.5px solid white;
+	width: 70px;
+    text-align: center;
+    /*font-size: 18px;*/
+    font-weight: bold;
+}
+
+.navbar-nav li:first-of-type {
+	margin-left: 100px;
+	
+}
+
+.nav-link {
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+.nav-link:hover  {
+	color: yellow;
+	box-shadow: 1px 5px 10px -5px black;
+    transition: background-color 1s, transform 2s;
+}
+
+.addons-section {
+	display: flex;
+}
+
+.addons-h1{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.card-title {
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.dropdown-item {
+	font-weight: bold;
+}
+
+.main-h1 {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.navbar {
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+}
+
+.addons-h5, .span-addons {
+	font-weight: bold;
+}
+
+.carousel {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.BuyEmAll-h5 {
+	font-size: 30px;
+	font-weight: bold;
+}

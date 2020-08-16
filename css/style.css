@@ -66,7 +66,8 @@
 	border-bottom: 3px solid gold;
 }
 
-.addons-h5, .span-addons {
+.addons-h5, .span-addons, .Capping-addons,
+.FarmHud-addons {
 	font-weight: bold;
 }
 
@@ -78,4 +79,36 @@
 .BuyEmAll-h5 {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.carousel-Capping {
+	margin-left: 35%;
+}
+
+.carousel-Capping {
+	width: 30%;
+	margin-left: 35%;
+}
+
+.carousel-FarmHud {
+	width: 30%;
+	margin-left: 35%;
+}
+
+.span-FarmIt, .span-GetherMate {
+	font-weight: bold;
+}
+
+.FarmIt-h5 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.addons-numbers {
+	font-weight: bold;
+}
+
+.Hyperspawn-addons {
+	text-decoration: underline;
 }

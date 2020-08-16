@@ -3,7 +3,7 @@
 }
 
 .navbar {
-	background-color: #e3f2fd;
+	background-color: #002650;
 
 }
 
@@ -15,20 +15,52 @@
     font-weight: bold;
 }
 
-.navbar-nav li:first-of-type {
+/*.navbar-nav li:first-of-type {
 	margin-left: 100px;
 	
-}
+}*/
 
 .nav-link {
 	font-weight: bold;
-	font-size: 20px;	
+	font-size: 20px;
+	padding-bottom: 4px;	
 }
 
+
+
+.span-navbar{
+	color: #ccd3dc;
+}
+
+.span-navbar:hover{
+	color: #FFFFFF;
+	
+	/*outline-bottom: 1px solid white;*/
+}
+
+.dropdown-menu {
+	background-color: #002650;
+}
+
+.dropdown-item {
+	color: #ccd3dc;
+}
+
+.dropdown-item:hover {
+	background-color: #ccd3dc;
+}
+
+
+
 .nav-link:hover  {
-	color: yellow;
-	box-shadow: 1px 5px 10px -5px black;
-    transition: background-color 1s, transform 2s;
+    
+  border-bottom: 4px solid #D5BA5E;
+  outline: 0;
+  padding-bottom: 0px;
+	
+/*	box-shadow: 1px 5px 10px -5px black;
+    transition: background-color 1s, transform 2s;*/
+    transition: border-bottom 0.5s, transform 2s;
 }
 
 .addons-section {
@@ -53,7 +85,11 @@
 	font-weight: bold;
 }
 
+
+
+
 .main-h1 {
+	color: white;
 	text-align: center;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -62,9 +98,19 @@
 }
 
 .navbar {
-	border-top: 3px solid gold;
-	border-bottom: 3px solid gold;
+	border-top: 3px solid #004f84;
+	border-bottom: 3px solid #004f84;
+	/*background-image: url(../img/menu.png);*/
+	background-size: cover;
+	
+	
 }
+
+.dropdown-menu{
+	
+	color: #C0C0C0;
+}
+
 
 .addons-h5, .span-addons, .Capping-addons,
 .FarmHud-addons {
@@ -123,3 +169,10 @@
 	text-align: center;
 }
 
+.main_page {
+	min-height: 100vh;
+	border: 3px solid black;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center center;
+}

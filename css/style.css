@@ -112,3 +112,14 @@
 .Hyperspawn-addons {
 	text-decoration: underline;
 }
+
+.footer {
+	display: block;
+	height: 200px;
+	border-top: 1px solid black;
+	background: black;
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+

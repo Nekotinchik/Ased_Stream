@@ -3,7 +3,8 @@
 }
 
 .navbar {
-	background-color: #002650;
+	/*background-color: #002650;*/
+	background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
 
 }
 
@@ -112,6 +113,7 @@
 }
 
 
+
 .addons-h5, .span-addons, .Capping-addons,
 .FarmHud-addons {
 	font-weight: bold;
@@ -163,7 +165,8 @@
 	display: block;
 	height: 200px;
 	border-top: 1px solid black;
-	background: black;
+	
+	background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
 	color: white;
 	padding-top: 100px;
 	text-align: center;

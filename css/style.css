@@ -5,7 +5,7 @@
 .navbar {
 	/*background-color: #002650;*/
 	background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
-
+	
 }
 
 .navbar-brand {
@@ -164,7 +164,7 @@
 .footer {
 	display: block;
 	height: 200px;
-	border-top: 1px solid black;
+	border-top: 3px solid #004f84;
 	
 	background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
 	color: white;
@@ -174,7 +174,7 @@
 
 .main_page {
 	min-height: 100vh;
-	border: 3px solid black;
+	border-top: 3px solid #004f84;
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-position: center center;

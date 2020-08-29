@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+
+  border-top: 3px solid $color-primary;
+  background-image: url(../img/navbar-background.jpg);
+  color: $color-light;
+}

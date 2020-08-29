@@ -1,0 +1,49 @@
+.header-menu {
+  @extend %header;
+}
+
+.navbar {
+  /*background-image: url(../img/menu.png);*/
+  background-size: cover;
+}
+
+.header_table_alliance {
+  background-color: #00509a;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.header_table_horde {
+  background-color: #f00e00;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.navbar {
+  /*background-color: #002650;*/
+}
+
+.navbar-brand {
+  border: 1.5px solid white;
+  width: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.span-navbar {
+  color: #ccd3dc;
+}
+
+.span-navbar:hover {
+  color: #ffffff;
+}

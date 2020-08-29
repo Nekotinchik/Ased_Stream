@@ -178,7 +178,6 @@
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-position: center center;
-<<<<<<< HEAD
 }
 
 
@@ -466,6 +465,4 @@ table, td {
 	100% {
 		-webkit-transform: translateX(0%);
 	}
-=======
->>>>>>> ebf6d9f67fd1504a2fdd93fd8b3a2f95b75c2ba5
 }

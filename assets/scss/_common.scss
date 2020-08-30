@@ -7,6 +7,9 @@ a {
   color: $color-light !important;
 }
 
+h1 {
+  text-align: center;
+}
 .active {
   background-color: $color-dark;
 }
@@ -81,48 +84,11 @@ a {
   font-weight: bold;
 }
 
-.carousel {
-  width: 50%;
-  margin-left: 25%;
-}
 
-.BuyEmAll-h5 {
-  font-size: 30px;
-  font-weight: bold;
-}
 
-.carousel-Capping {
-  margin-left: 35%;
-}
 
-.carousel-Capping {
-  width: 30%;
-  margin-left: 35%;
-}
 
-.carousel-FarmHud {
-  width: 30%;
-  margin-left: 35%;
-}
 
-.span-FarmIt,
-.span-GetherMate {
-  font-weight: bold;
-}
-
-.FarmIt-h5 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.addons-numbers {
-  font-weight: bold;
-}
-
-.Hyperspawn-addons {
-  text-decoration: underline;
-}
 
 
 

@@ -1,6 +1,11 @@
 @charset "UTF-8";
 .header, .footer {
   background-image: url(../img/navbar-background.jpg);
+  z-index: 2;
+}
+
+.card-body {
+  background-color: #dddddd;
 }
 
 * {
@@ -11,6 +16,10 @@
 
 a {
   color: #ffffff !important;
+}
+
+h1 {
+  text-align: center;
 }
 
 .active {
@@ -88,49 +97,6 @@ a {
 .Capping-addons,
 .FarmHud-addons {
   font-weight: bold;
-}
-
-.carousel {
-  width: 50%;
-  margin-left: 25%;
-}
-
-.BuyEmAll-h5 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.carousel-Capping {
-  margin-left: 35%;
-}
-
-.carousel-Capping {
-  width: 30%;
-  margin-left: 35%;
-}
-
-.carousel-FarmHud {
-  width: 30%;
-  margin-left: 35%;
-}
-
-.span-FarmIt,
-.span-GetherMate {
-  font-weight: bold;
-}
-
-.FarmIt-h5 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.addons-numbers {
-  font-weight: bold;
-}
-
-.Hyperspawn-addons {
-  text-decoration: underline;
 }
 
 /*Расписание фарма*/
@@ -457,4 +423,136 @@ td {
   height: 70px;
   width: 100%;
   color: #ffffff;
+}
+
+.addons-container {
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.addons-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addons-item {
+  margin: 15px;
+}
+
+.addons-item__img {
+  height: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.addons-item__img:hover {
+  opacity: 0.7;
+}
+
+.addons-item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addon-modal {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.addon-modal-container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addon-modal__image {
+  width: 100%;
+  max-width: 370px;
+  border-radius: 4px;
+}
+
+.addon-modal__caption {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding-left: 100px;
+}
+
+.addon-modal__image, .addon-modal__caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }

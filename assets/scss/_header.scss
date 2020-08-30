@@ -1,0 +1,59 @@
+.header {
+  @extend %header-footer;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &-menu {
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+    &__link {
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: 12px;
+      border-radius: 4px;
+
+      &:hover {
+        background-color: $color-primary;
+      }
+
+      &:focus {
+        background-color: $color-dark;
+      }
+    }
+
+    &__item {
+
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
+
+      &:first-of-type {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+
+.header_table_alliance {
+  background-color: #00509a;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.header_table_horde {
+  background-color: #f00e00;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+

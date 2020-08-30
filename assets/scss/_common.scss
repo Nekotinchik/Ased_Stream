@@ -1,5 +1,22 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: $color-light !important;
+}
+
+.active {
+  background-color: $color-dark;
+}
+
+
+.main_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .selector-for-some-widget {
@@ -18,15 +35,9 @@
   background-color: #ccd3dc;
 }
 
-.nav-link:hover {
-  border-bottom: 4px solid #d5ba5e;
-  outline: 0;
-  padding-bottom: 0px;
 
-  /*	box-shadow: 1px 5px 10px -5px black;
-      transition: background-color 1s, transform 2s;*/
-  transition: border-bottom 0.5s, transform 2s;
-}
+
+
 
 .addons-section {
   display: flex;
@@ -113,13 +124,7 @@
   text-decoration: underline;
 }
 
-.main_page {
-  min-height: 100vh;
-  border-top: 3px solid #004f84;
-  background-image: url(../img/bg.jpg);
-  background-size: cover;
-  background-position: center center;
-}
+
 
 /*Расписание фарма*/
 

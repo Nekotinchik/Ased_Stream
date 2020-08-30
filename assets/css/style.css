@@ -1,11 +1,33 @@
 @charset "UTF-8";
-.header-menu {
+.header, .footer {
   background-image: url(../img/navbar-background.jpg);
 }
 
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: #ffffff !important;
+}
+
+.active {
+  background-color: #002650;
+}
+
+.main_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
 
 .selector-for-some-widget {
@@ -23,19 +45,6 @@
 
 .dropdown-item:hover {
   background-color: #ccd3dc;
-}
-
-.nav-link:hover {
-  border-bottom: 4px solid #d5ba5e;
-  outline: 0;
-  padding-bottom: 0px;
-  /*	box-shadow: 1px 5px 10px -5px black;
-      transition: background-color 1s, transform 2s;*/
-  -webkit-transition: border-bottom 0.5s, -webkit-transform 2s;
-  transition: border-bottom 0.5s, -webkit-transform 2s;
-  -o-transition: border-bottom 0.5s, transform 2s;
-  transition: border-bottom 0.5s, transform 2s;
-  transition: border-bottom 0.5s, transform 2s, -webkit-transform 2s;
 }
 
 .addons-section {
@@ -122,14 +131,6 @@
 
 .Hyperspawn-addons {
   text-decoration: underline;
-}
-
-.main_page {
-  min-height: 100vh;
-  border-top: 3px solid #004f84;
-  background-image: url(../img/bg.jpg);
-  background-size: cover;
-  background-position: center center;
 }
 
 /*Расписание фарма*/
@@ -383,9 +384,43 @@ td {
   }
 }
 
-.navbar {
-  /*background-image: url(../img/menu.png);*/
-  background-size: cover;
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-menu {
+  height: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-menu__link {
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.header-menu__link:hover {
+  background-color: #004f84;
+}
+
+.header-menu__link:focus {
+  background-color: #002650;
+}
+
+.header-menu__item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.header-menu__item:first-of-type {
+  margin-left: 10px;
 }
 
 .header_table_alliance {
@@ -404,28 +439,8 @@ td {
   font-size: 30px;
 }
 
-.navbar {
-  /*background-color: #002650;*/
-}
-
-.navbar-brand {
-  border: 1.5px solid white;
-  width: 70px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.nav-link {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 4px;
-}
-
-.span-navbar {
-  color: #ccd3dc;
-}
-
-.span-navbar:hover {
+.main_page {
+  background-image: url("../img/bg2.jpg");
   color: #ffffff;
 }
 
@@ -440,7 +455,6 @@ td {
       -ms-flex-align: center;
           align-items: center;
   height: 70px;
-  border-top: 3px solid #004f84;
-  background-image: url(../img/navbar-background.jpg);
+  width: 100%;
   color: #ffffff;
 }

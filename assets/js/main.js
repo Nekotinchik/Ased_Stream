@@ -26,6 +26,7 @@ span.addEventListener('click', function (event) {
 
 window.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
-        modal.style.display = 'none'
+        modal.style.display = 'none';
+        body.style.overflow = "auto";
     }
 });

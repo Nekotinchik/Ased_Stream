@@ -488,7 +488,7 @@ td {
   height: 100%;
   overflow: hidden;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .addon-modal-container {

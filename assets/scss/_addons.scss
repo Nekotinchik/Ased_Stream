@@ -12,7 +12,8 @@
   margin: 15px;
 
   &__img {
-    height: 250px;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -44,21 +45,21 @@
 
   &-container {
     max-width: 1200px;
-    display: flex;
+    display: block;
   }
 
   &__image {
     width: 100%;
-    max-width: 370px;
+    max-width: 1000px;
     border-radius: 4px;
   }
 
   &__caption {
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     text-align: center;
     color: #ccc;
-    padding-left: 100px;
+    margin-top: 50px;
   }
 }
 

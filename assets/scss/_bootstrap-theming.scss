@@ -1,6 +1,11 @@
 .card {
-  //z-index: -1;
+
   &-body {
     background-color: $color-gray;
+    padding: $gap;
+  }
+
+  h5 {
+    font-size: 1rem;
   }
 }

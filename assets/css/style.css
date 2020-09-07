@@ -6,6 +6,11 @@
 
 .card-body {
   background-color: #dddddd;
+  padding: 15px;
+}
+
+.card h5 {
+  font-size: 1rem;
 }
 
 * {
